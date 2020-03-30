@@ -8,26 +8,8 @@
 
     Multi-label classification (MLC): It is a generalization of multi-class classification where a single instance can be assigned to multiple classes aka 'labels' at a given instance of time 't'
 
-    >> Multiclass classification
-                    <============================ Dataset ==========================>
-            0       | ---------------              --------------- ||    Class A    | 
-            1       | ---------------              --------------- ||    Class B    |
-            2               :               :            :                  :
-            3               :           Attributes       :               Classes
-            :               :               :            :                  :       |  
-            n       | ---------------              --------------- ||    Class C    |
-            n+1     | ---------------              --------------- ||    Class A    |
-            n+2     | ---------------              --------------- ||    Class D    |
-                    <===============================================================>
-
-    >> Multi-label classification
-                    <====================================== Dataset ==========================================>
-            0       | ---------------              --------------- ||    Label A    ||    Label B    || ...   | 
-            1       | ---------------              --------------- ||    Label B    ||    Label C    || ...   |
-            2               :               :            :                  :                :           :
-            3               :           Attributes       :                  :              Labels        :
-            :               :               :            :                  :       ||       :           :
-            n       | ---------------              --------------- ||    Label C    ||    Label D    || ...   |
-            n+1     | ---------------              --------------- ||    Label A    ||    Label B    || ...   |
-            n+2     | ---------------              --------------- ||    Label A    ||    Label C    || ...   |
-                    <=========================================================================================>
+    Understanding difference between MCC and MLC visually -
+    
+    [MCC](./data/MCC.png)
+    ------
+    [MLC](./data/MLC.png)

@@ -10,6 +10,8 @@
 
     Understanding difference between MCC and MLC visually -
     
-    [MCC](./data/MCC.png)
+    ![MCC](./data/MCC.png)
+    
     ------
-    [MLC](./data/MLC.png)
+    
+    ![MLC](./data/MLC.png)

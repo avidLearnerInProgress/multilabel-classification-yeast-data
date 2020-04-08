@@ -10,8 +10,19 @@
 
     Understanding difference between MCC and MLC visually -
     
-    ![MCC](./data/MCC.png)
+    ![MCC](./data/snippets/MCC.png)
     
     ------
     
-    ![MLC](./data/MLC.png)
+    ![MLC](./data/snippets/MLC.png)
+
+
+## Multi-label classification algorithms
+
+### Binary Relavance Classification
+
+### Classifier Chains
+
+### Classifier Chains Random Ordering
+
+### Classifier Chains Using Monte-Carlo Algorithm
